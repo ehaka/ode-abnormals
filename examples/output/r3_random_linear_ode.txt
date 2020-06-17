@@ -1,0 +1,172 @@
+Script started on 2020-06-17 08:53:49+0200
+/home/eero/sage/local/lib/python3.7/site-packages/sage/structure/unique_representation.py:1027: FutureWarning: The Hall basis has not been fully proven correct, but currently no bugs are known
+See http://trac.sagemath.org/16823 for details.
+  instance = typecall(cls, *args, **options)
+verbose 1 (14: pde.py, first_integral_pde) computing commutators from the partial derivatives:
+verbose 1 (14: pde.py, first_integral_pde)     X_1 Q = 2*x_1 + x_3
+verbose 1 (14: pde.py, first_integral_pde)     X_2 Q = -8*x_1 + x_2
+verbose 1 (14: pde.py, first_integral_pde)     X_3 Q = 0
+verbose 1 (14: pde.py, first_integral_pde)     [X_1, X_2] Q = -8
+verbose 1 (14: pde.py, first_integral_pde)     [X_1, X_3] Q = -1
+verbose 1 (83: pde.py, integrate_pde) extracting structure coefficients for a free nilpotent Lie algebra or rank 3 and step 2
+verbose 1 (83: pde.py, integrate_pde) computing left invariant vector fields in exp2 coordinates
+verbose 1 (1115: automorphismfield.py, __invert__) generic in-place Gauss elimination on 6 x 12 matrix using classical algorithm
+verbose 1 (83: pde.py, integrate_pde) integrating the PDE
+verbose 1 (83: pde.py, integrate_pde)   Q = -x_13 + R(x_1,x_2,x_3,x_12)
+verbose 1 (83: pde.py, integrate_pde)   Q = -8*x_12 - x_13 + R(x_1,x_2,x_3)
+verbose 1 (83: pde.py, integrate_pde)   Q = x_1*x_3 - 8*x_12 - x_13 + R(x_1,x_2)
+verbose 1 (83: pde.py, integrate_pde)   Q = 1/2*x_2^2 + x_1*x_3 - 8*x_12 - x_13 + R(x_1)
+verbose 1 (83: pde.py, integrate_pde)   Q = x_1^2 + 1/2*x_2^2 + x_1*x_3 - 8*x_12 - x_13
+verbose 1 (83: pde.py, integrate_pde) verifying the solution
+verbose 1 (330: ode_search.py, ode_search) upper bound for required nilpotency step is 89
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 5
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_113 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_213 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_223 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_312 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_313 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_323 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_113 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_213 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_223 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_312 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_313 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_323 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_113 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_213 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_223 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_312 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_313 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_323 deg 2 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 5
+verbose 1 (99: abnormals.py, abnormal_factor_system) 104 equations, 74 covector vars, 8 x 1 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 104 x 82 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 6
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_113 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_213 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_223 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_312 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_313 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_323 deg 3 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 6
+verbose 1 (99: abnormals.py, abnormal_factor_system) 256 equations, 162 covector vars, 8 x 4 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 256 x 194 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 7
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_113 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_213 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_223 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_312 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_313 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_323 deg 4 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 7
+verbose 1 (99: abnormals.py, abnormal_factor_system) 568 equations, 330 covector vars, 8 x 13 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 568 x 434 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) first solution exists in step 7
+verbose 1 (226: ode_search.py, extract_a_solution) computing solution #1
+verbose 1 (226: ode_search.py, extract_a_solution) computing solution #2
+verbose 1 (226: ode_search.py, extract_a_solution) computing solution #3
+verbose 1 (330: ode_search.py, ode_search) abnormal covector found in 3.1 seconds
+
+ODE:
+dx_1/dt = 8*x_1 - x_2
+dx_2/dt = 2*x_1 + x_3
+dx_3/dt = -4*x_2 - 3*x_3
+
+A priori: trajectory is abnormal in step 89.
+A posteriori: abnormal in step 7.
+
+Abnormal covector for the linear ODE:
+
+(1)^{4}(112):384
+(2)(1)^{3}(112):12
+(2)^{2}(1)^{2}(112):32
+(2)^{3}(1)(112):6
+(3)(1)^{3}(112):240
+(3)(2)(1)^{2}(112):6
+(3)(2)^{2}(1)(112):24
+(3)(2)^{3}(112):3
+(3)^{2}(1)^{2}(112):128
+(3)^{2}(2)(1)(112):2
+(3)^{2}(2)^{2}(112):16
+(3)^{3}(1)(112):48
+(12)(1)^{2}(112):-256
+(12)(2)(1)(112):-16
+(12)(3)(1)(112):-192
+(12)(3)(2)(112):-8
+(12)(3)^{2}(112):-128
+(13)(1)^{2}(112):-32
+(13)(2)(1)(112):-2
+(13)(3)(1)(112):-24
+(13)(3)(2)(112):-1
+(13)(3)^{2}(112):-16
+(1)^{4}(113):-12
+(2)^{2}(1)^{2}(113):-2
+(2)^{4}(113):-3
+(3)(1)^{3}(113):-6
+(3)(2)^{2}(1)(113):-1
+(3)^{2}(1)^{2}(113):-2
+(12)(1)^{2}(113):16
+(12)(2)^{2}(113):8
+(12)(3)(1)(113):8
+(12)^{2}(113):-64
+(13)(1)^{2}(113):2
+(13)(2)^{2}(113):1
+(13)(3)(1)(113):1
+(13)(12)(113):-8
+(13)^{2}(113):-1
+(2)^{4}(212):207
+(3)(2)^{3}(212):24
+(12)(2)^{2}(212):-536
+(12)(3)(2)(212):-64
+(12)^{2}(212):4160
+(13)(2)^{2}(212):-67
+(13)(3)(2)(212):-8
+(13)(12)(212):520
+(13)^{2}(212):65
+(2)^{4}(213):24
+(12)(2)^{2}(213):-64
+(12)^{2}(213):512
+(13)(2)^{2}(213):-8
+(13)(12)(213):64
+(13)^{2}(213):8
+(12)^{2}(312):512
+(13)(12)(312):64
+(13)^{2}(312):8
+
+
+Abnormal polynomials of layer 3 for the covector:
+
+P_{112} = (-1/2) * (2*x_1 + x_3) * (8*x_1 + x_2 + 8*x_3) * (-2*x_1^2 - x_2^2 - 2*x_1*x_3 + 16*x_12 + 2*x_13)
+P_{113} = (-1/8) * (-2*x_1^2 - x_2^2 - 2*x_1*x_3 + 16*x_12 + 2*x_13)^2
+P_{212} = (1/8) * (-2*x_1^2 - x_2^2 - 2*x_1*x_3 + 16*x_12 + 2*x_13) * (126*x_1^2 - 69*x_2^2 + 126*x_1*x_3 - 32*x_2*x_3 + 1040*x_12 + 130*x_13)
+P_{213} = (-2*x_1^2 - x_2^2 - 2*x_1*x_3 + 16*x_12 + 2*x_13)^2
+P_{223} = 0
+P_{312} = (-2*x_1^2 - x_2^2 - 2*x_1*x_3 + 16*x_12 + 2*x_13)^2
+P_{313} = 0
+P_{323} = 0
+
+Script done on 2020-06-17 08:53:54+0200

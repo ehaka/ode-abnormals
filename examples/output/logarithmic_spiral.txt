@@ -1,0 +1,106 @@
+Script started on 2020-06-17 08:53:38+0200
+/home/eero/sage/local/lib/python3.7/site-packages/sage/structure/unique_representation.py:1027: FutureWarning: The Hall basis has not been fully proven correct, but currently no bugs are known
+See http://trac.sagemath.org/16823 for details.
+  instance = typecall(cls, *args, **options)
+verbose 1 (14: pde.py, first_integral_pde) computing commutators from the partial derivatives:
+verbose 1 (14: pde.py, first_integral_pde)     X_1 Q = x - y
+verbose 1 (14: pde.py, first_integral_pde)     X_2 Q = x + y
+verbose 1 (14: pde.py, first_integral_pde)     [X_1, X_2] Q = 2
+verbose 1 (83: pde.py, integrate_pde) extracting structure coefficients for a free nilpotent Lie algebra or rank 2 and step 2
+verbose 1 (83: pde.py, integrate_pde) computing left invariant vector fields in exp2 coordinates
+verbose 1 (1115: automorphismfield.py, __invert__) generic in-place Gauss elimination on 3 x 6 matrix using classical algorithm
+verbose 1 (83: pde.py, integrate_pde) integrating the PDE
+verbose 1 (83: pde.py, integrate_pde)   Q = 2*x_12 + R(x_1,x_2)
+verbose 1 (83: pde.py, integrate_pde)   Q = -x_1*x_2 + 1/2*x_2^2 + 2*x_12 + R(x_1)
+verbose 1 (83: pde.py, integrate_pde)   Q = 1/2*x_1^2 - x_1*x_2 + 1/2*x_2^2 + 2*x_12
+verbose 1 (83: pde.py, integrate_pde) verifying the solution
+verbose 1 (330: ode_search.py, ode_search) upper bound for required nilpotency step is 11
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 5
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 0 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 1 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 2 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 2 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 5
+verbose 1 (99: abnormals.py, abnormal_factor_system) 14 equations, 11 covector vars, 2 x 1 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 14 x 13 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 6
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 3 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 3 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 6
+verbose 1 (99: abnormals.py, abnormal_factor_system) 26 equations, 19 covector vars, 2 x 3 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 26 x 25 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) searching for solutions in step 7
+verbose 1 (12: abnormals.py, abnormal_polynomials) computing abnormal polynomials:
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_112 deg 4 coefficients
+verbose 1 (12: abnormals.py, abnormal_polynomials)   P_212 deg 4 coefficients
+verbose 1 (99: abnormals.py, abnormal_factor_system) forming full linear system in step 7
+verbose 1 (99: abnormals.py, abnormal_factor_system) 44 equations, 31 covector vars, 2 x 7 auxiliary vars
+verbose 1 (176: ode_search.py, multimod echelon) Multimodular echelon algorithm on 44 x 45 matrix
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, sparse_matrix_pyx matrix_modint echelon) 
+verbose 1 (176: ode_search.py, first_solvable_system) first solution exists in step 7
+verbose 1 (226: ode_search.py, extract_a_solution) computing solution #1
+verbose 1 (226: ode_search.py, extract_a_solution) computing solution #2
+verbose 1 (330: ode_search.py, ode_search) abnormal covector found in 1.9 seconds
+
+ODE:
+dx/dt = -x - y
+dy/dt = x - y
+
+A priori: trajectory is abnormal in step 11 by coefficients of the series
+-(2*t^5 - t^3)/(t^4 - 2*t^3 + 2*t - 1) = (-1)*t^3 + (-2)*t^4 + (-2)*t^5 + (-2)*t^6 + (-1)*t^7 + 2*t^9 + 4*t^10 + 7*t^11 + Order(t^12)
+A posteriori: abnormal in step 7.
+
+Abnormal covector #1 for the logarithmic spiral:
+
+(1)^{4}(112):-39
+(2)(1)^{3}(112):30
+(2)^{2}(1)^{2}(112):-21
+(2)^{3}(1)(112):12
+(2)^{4}(112):-3
+(12)(1)^{2}(112):-18
+(12)(2)(1)(112):12
+(12)(2)^{2}(112):-6
+(12)^{2}(112):-20
+(2)^{4}(212):-12
+(12)(2)^{2}(212):-4
+
+Abnormal covector #2 for the logarithmic spiral:
+
+(1)^{4}(112):111
+(2)(1)^{3}(112):-90
+(2)^{2}(1)^{2}(112):69
+(2)^{3}(1)(112):-48
+(2)^{4}(112):27
+(12)(1)^{2}(112):50
+(12)(2)(1)(112):-36
+(12)(2)^{2}(112):22
+(12)^{2}(112):52
+(12)(2)^{2}(212):-4
+(12)^{2}(212):-16
+
+
+Simple abnormal covector:
+
+3\lambda_{1111112} - 3\lambda_{2211112} + 6\lambda_{2221112} - 9\lambda_{2222112} + 18\lambda_{2222212} + 2\lambda_{1211112} - 2\lambda_{1222112} + 8\lambda_{1222212} + 4\lambda_{1212112} + 8\lambda_{1212212}
+
+
+Abnormal polynomials of layer 3 for the simple covector:
+
+P_{112} = (1/8) * (x_1^2 - 2*x_1*x_2 + x_2^2 + 4*x_12) * (x_1^2 + 2*x_1*x_2 - 3*x_2^2 + 4*x_12)
+P_{212} = (1/4) * (x_1^2 + 3*x_2^2 + 4*x_12) * (x_1^2 - 2*x_1*x_2 + x_2^2 + 4*x_12)
+
+Script done on 2020-06-17 08:53:41+0200

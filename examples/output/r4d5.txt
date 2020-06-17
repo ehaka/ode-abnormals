@@ -1,0 +1,30 @@
+Computation started at 11:57:46
+Starting from 5355
+Step 500000, recurrence runtime 3750 seconds at 13:00:27
+Step 1000000, recurrence runtime 8541 seconds at 14:20:18
+Step 1500000, recurrence runtime 13661 seconds at 15:45:38
+Step 2000000, recurrence runtime 19002 seconds at 17:14:38
+Step 2500000, recurrence runtime 24506 seconds at 18:46:22
+Step 3000000, recurrence runtime 30131 seconds at 20:20:08
+Step 3500000, recurrence runtime 35835 seconds at 21:55:12
+Step 4000000, recurrence runtime 41638 seconds at 23:31:55
+Step 4500000, recurrence runtime 47520 seconds at 01:09:57
+Step 5000000, recurrence runtime 53450 seconds at 02:48:47
+Step 5500000, recurrence runtime 59449 seconds at 04:28:46
+Step 6000000, recurrence runtime 65509 seconds at 06:09:46
+Step 6500000, recurrence runtime 71635 seconds at 07:51:52
+Step 7000000, recurrence runtime 77772 seconds at 09:34:09
+Step 7500000, recurrence runtime 83959 seconds at 11:17:16
+Step 8000000, recurrence runtime 90198 seconds at 13:01:15
+Step 8500000, recurrence runtime 96496 seconds at 14:46:13
+Step 9000000, recurrence runtime 102829 seconds at 16:31:45
+Step 9500000, recurrence runtime 109195 seconds at 18:17:52
+Step 10000000, recurrence runtime 115602 seconds at 20:04:38
+Step 10500000, recurrence runtime 122026 seconds at 21:51:43
+Step 11000000, recurrence runtime 128491 seconds at 23:39:28
+Step 11500000, recurrence runtime 134972 seconds at 01:27:29
+Step 12000000, recurrence runtime 141489 seconds at 03:16:06
+Step 12500000, recurrence runtime 148029 seconds at 05:05:05
+Step 13000000, recurrence runtime 154592 seconds at 06:54:28
+Step 13500000, recurrence runtime 161184 seconds at 08:44:21
+s(4,5) = 13529000, computed with low mem in 161566.5 seconds
